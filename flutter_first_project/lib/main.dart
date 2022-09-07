@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            print("DANA");
-          },
-        ),
+            onPressed: () {
+              print("DANA");
+            },
+            child: Icon(Icons.add)),
         appBar: AppBar(
           backgroundColor: Color.fromARGB(255, 166, 161, 161),
           title: Text('MY First Flutter App'),
